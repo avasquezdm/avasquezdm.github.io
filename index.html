@@ -1,1 +1,176 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrián Vásquez, Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b24bd61975.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid me-end ">
+          <a class="navbar-brand fw-bold text-light" href="#">Adrián Vásquez Doorman / @avasquezdm</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Ir arriba</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="#proyectos">Mis proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="#Contacto">Contacto</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- header -->
+    <header class="text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold my-5">
+                    Aprendiendo <br> desarrollo web
+                </h1>
+                <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusamus iusto quibusdam
+                    dignissimos labore sequi. Cupiditate reiciendis eius dolore, illum adipisci harum voluptas iste
+                    mollitia inventore provident labore voluptatum nemo.
+                </p>
+            </div>
+        </div>
+    </header>
+
+<!-- grilla de proyectos -->
+    <div class="container text-center bg-dark pt-5" id="proyectos">
+    <div class="row">
+      <div class="col">
+        <div class="card mx-auto" style="width: 22rem;">
+            <img src="assets/img/desaf1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HTML básico</h5>
+              <p class="card-text">Etiquetas, encabezados, párrafos, listas, comentarios, tablas.</p>
+              <a href="#" class="btn btn-primary">Ver en GitHub</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card mx-auto" style="width: 22rem;">
+            <img src="assets/img/desaf2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CSS básico</h5>
+              <p class="card-text">Selectores, comentarios, modelo de cajas, cascada, div.</p>
+              <a href="#" class="btn btn-primary">Ver en GitHub</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="row mt-4 pb-5 mb-3">
+      <div class="col">
+        <div class="card mx-auto" style="width: 22rem;">
+            <img src="assets/img/desaf3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CSS medio</h5>
+              <p class="card-text">Semántica, display, floats, Font Awesome.</p>
+              <a href="#" class="btn btn-primary">Ver en GitHub</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card mx-auto" style="width: 22rem;">
+            <img src="assets/img/desaf4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+              <p class="card-text">Frameworks, componentes, clases, utilidades, responsividad.</p>
+              <a href="#" class="btn btn-primary">Ver en GitHub</a>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card mx-auto" style="width: 22rem;">
+            <img src="assets/img/desaf5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Github commits</h5>
+              <p class="card-text">Terminal, comandos y uso básico de versiones.</p>
+              <a href="#" class="btn btn-primary">Ver en GitHub</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+<!-- acordeón -->
+
+<div class="accordion mt-5 mb-5" id="accordionExample">
+    <p class="mb-4 fs-3 text-center fw-bold">Algunas reflexiones...</p>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          ¿Por qué estudié con Desafío Latam?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Son 3 las razones principales: <strong>Mi pega actual me tiene aburrido,</strong> además, siempre me ha gustado la informática, y ser desarrollador permite home-office, más libertad. <strong>Un amigo me lo recomendó,</strong> y (generalmente) confío en su criterio, porque es casi tan exigente como yo. <strong>Tercer motivo</strong> texto.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          ¿Cómo fue mi experiencia?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Para el precio está genial!</strong> Hay algunas cosas que pueden mejorar, pero nada grave, y totalmente recomendable.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Terminé el curso ¿Y ahora qué? ¿Una carrera?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>¿Full Stack? ¿Frontend? ¿UX/UI?</strong> ¿o me voy a Data Science? hmmm... considerando mi poco gusto por la estadística, mejor que no... Tendré que ver ventajas y diferencias de cada especialidad.
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- footer -->
+  <footer class="footer mt-auto py-3 bg-light text-center bg-dark" id="Contacto">
+    <div class="container text-center">
+        <p class="mb-4 mt-4 fs-3 text-light">¡Te invito a conocerme más y ponerte en contacto conmigo!</p>
+        <div class="row">
+          <div class="col">
+            <ul class="list-group">
+                <li class="list-group-item bg-dark"><a href="https://www.facebook.com/avasquezd" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i> /avasquezd</li></a>
+                <li class="list-group-item bg-dark"><a href="https://www.instagram.com/avasquezdm/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> /avasquezdm</li></a>
+                <li class="list-group-item bg-dark"><a href="https://www.linkedin.com/in/avasquezdm/" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i> /avasquezdm</li></a>
+              </ul>
+          </div>
+          <div class="col">
+            <ul class="list-group">
+                <li class="list-group-item bg-dark text-light"><i class="fa-brands fa-whatsapp fa-lg"></i> +569 8529 2117</li>
+                <li class="list-group-item bg-dark"><a href="mailto:a.vasquezdm@gmail.com"> a.vasquezdm@gmail.com</a></li>
+                <li class="list-group-item bg-dark text-light">Santiago, RM, Chile.</li>
+              </ul>
+          </div>
+        </div>
+    </div>
+    <div>
+        <p class="mt-3 mb-0 fs-5 fw-bold text-light">Adrián Vásquez Doorman</p>
+        <span class="text-light mt-0">Fines de 2022. Gracias a Desafío Latam.</span>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

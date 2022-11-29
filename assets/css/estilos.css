@@ -1,0 +1,14 @@
+body    {
+    background-color: gray;
+}
+
+header {
+    background-image: url("../header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+/* .card-img-top {
+    height: 400px important!;
+} */
