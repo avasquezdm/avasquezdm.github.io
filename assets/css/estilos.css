@@ -1,14 +1,20 @@
 body    {
     border: 0px;
+
 }
 
-#Hero-Section {
+header {
     background-image: url("../img/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    min-height: 55rem;
 }
 
-/* .card-img-top {
-    height: 400px important!;
-} */
+#proyects-div {
+    background-color: rgb(33,37,41);
+}
+
+.card-img-top {
+    max-height: 600px;
+} 
