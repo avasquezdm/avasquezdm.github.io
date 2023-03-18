@@ -1,0 +1,34 @@
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-title {
+  color: #cf649a;
+}
+
+.card {
+  background-color: #212529;
+  padding: 0.5em;
+}
+
+.card-text {
+  color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #cf649a;
+  border: 0px;
+}
+
+.font, .card-text, .btn-primary {
+  font-family: "Dancing Script";
+}
+
+.card-img-top {
+  padding: 1.5em;
+}

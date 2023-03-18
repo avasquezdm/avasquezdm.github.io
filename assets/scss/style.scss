@@ -1,0 +1,34 @@
+@import "./_variables.scss";
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    color: $purple;
+  }
+
+.card {
+    background-color: $dark;
+    padding: 0.5em;
+}
+
+.card-text {
+    color: $light;
+    @extend .font;
+}
+
+.btn-primary {
+    background-color: $purple;
+    border: 0px;
+    @extend .font;
+}
+
+.font {
+    font-family: 'Dancing Script';
+}
+
+.card-img-top {
+    padding: 1.5em;
+  }
